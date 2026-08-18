@@ -151,6 +151,6 @@ No meu canal do YouTube, compartilho vídeos com o objetivo de espalhar o Evange
 
 <div align="center">
 
-**"The only way to do great work is to love what you do."** — Steve Jobs
+**John 14:6 Jesus answered, “I am the way and the truth and the life. No one comes to the Father except through me**
 
 </div>
