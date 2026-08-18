@@ -76,15 +76,9 @@ A **pixel art strategy game** focused on commanding massive armies in real-time 
 
 <div align="center">
 
-<img height="160px" src="https://github-readme-stats.vercel.app/api?username=Itz-Nick&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=79c0ff&text_color=c9d1d9&ring_color=58a6ff" />
+![Nicolas's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Itz-Nick&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=79c0ff&text_color=c9d1d9&ring_color=58a6ff)
 
-<img height="160px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Itz-Nick&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Itz-Nick&theme=radical&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakLabel=c9d1d9&sideLabels=c9d1d9" width="500" />
+![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Itz-Nick&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6)
 
 </div>
 
@@ -94,7 +88,7 @@ A **pixel art strategy game** focused on commanding massive armies in real-time 
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Itz-Nick&theme=radical&no-frame=true&no-bg=true&column=4&margin-w=10" />
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Itz-Nick&theme=radical&no-frame=true&no-bg=true&column=4)
 
 </div>
 
