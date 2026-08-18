@@ -1,0 +1,59 @@
+name: Update Age
+
+on:
+  schedule:
+    - cron: '0 0 3 1 *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-age:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Calculate age
+        id: age
+        run: |
+          BIRTH_DATE="2009-01-03"
+          TODAY=$(date +%Y-%m-%d)
+          BIRTH_YEAR=$(date -d "$BIRTH_DATE" +%Y)
+          BIRTH_MONTH=$(date -d "$BIRTH_DATE" +%m)
+          BIRTH_DAY=$(date -d "$BIRTH_DATE" +%d)
+          TODAY_YEAR=$(date +%Y)
+          TODAY_MONTH=$(date +%m)
+          TODAY_DAY=$(date +%d)
+          
+          AGE=$((TODAY_YEAR - BIRTH_YEAR))
+          
+          if [ "$TODAY_MONTH" -lt "$BIRTH_MONTH" ] || { [ "$TODAY_MONTH" -eq "$BIRTH_MONTH" ] && [ "$TODAY_DAY" -lt "$BIRTH_DAY" ]; }; then
+            AGE=$((AGE - 1))
+          fi
+          
+          echo "age=$AGE" >> $GITHUB_OUTPUT
+
+      - name: Update README with new age
+        run: |
+          AGE="${{ steps.age.outputs.age }}"
+          sed -i "/<!-- AGE_START -->/,/<!-- AGE_END -->/c\<!-- AGE_START -->\n**${AGE} years old** · Born January 3, 2009\n<!-- AGE_END -->" README.md
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push if changed
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "🎂 Update age to ${{ steps.age.outputs.age }} years old"
+          git push
