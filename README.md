@@ -88,7 +88,7 @@ A **pixel art strategy game** focused on commanding massive armies in real-time 
 
 <div align="center">
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Itz-Nick&theme=radical&no-frame=true&no-bg=true&column=4)
+![GitHub Trophies](./assets/github-trophies.svg)
 
 </div>
 
