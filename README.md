@@ -126,7 +126,7 @@ A **pixel art strategy game** focused on commanding massive armies in real-time 
 
 ## 📺 YouTube
 
-No meu canal do YouTube, compartilho vídeos com o objetivo de espalhar o Evangelho e levar a mensagem de Cristo para mais pessoas.
+No meu canal do YouTube, compartilho vídeos com o objetivo de espalhar o Evangelho e levar a mensagem de Cristo para mais pessoas qualquer interesse aqui está o link.
 
 <div align="center">
 
