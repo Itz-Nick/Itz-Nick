@@ -5,7 +5,7 @@
 ### 🎮 Game Developer · Software Developer · Programmer
 
 
-[![GitHub](https://img.shields.io/badge/GitHub-Itz-Nick-181717?style=flat&logo=github)](https://github.com/Itz-Nick)
+[![GitHub](https://img.shields.io/badge/GitHub-Itz--Nick-181717?style=flat&logo=github)](https://github.com/Itz-Nick)
 [![YouTube](https://img.shields.io/badge/YouTube-Niko__dDeus-FF0000?style=flat&logo=youtube)](https://www.youtube.com/@Niko_dDeus)
 [![Instagram](https://img.shields.io/badge/Instagram-niko30426-E4405F?style=flat&logo=instagram)](https://www.instagram.com/niko30426)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nicolas-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/nicolas-souza-01269139a)
